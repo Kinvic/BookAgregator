@@ -1,0 +1,32 @@
+.input-field-wrapper {
+    position: relative;
+
+}
+
+.input-field-with-overlay {
+    box-sizing: border-box;
+    height: 20px;
+    width: 150px;
+}
+
+progress.overlay {
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+
+progress.overlay::-webkit-progress-bar {
+    background-color: rgba(0,0,0,0);
+}
+
+progress.overlay::-webkit-progress-value {
+    background-color: hotpink;
+    opacity: 0.5;
+}
+
